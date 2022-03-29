@@ -1,0 +1,161 @@
+*{margin:0; padding:0; font-family:"Malgun Gothic"; font-weight:bold;}
+body{padding:20px;}
+.ratio{width:50%;}
+.container{display:table;}
+.tableRow{
+	display:table-row;
+	text-align:center;
+}
+.tableCell{
+	display:table-cell;
+	vertical-align:middle;
+	padding:0px 2px;
+}
+
+.box{
+	padding:2px 0px;
+	width:180px;
+}
+
+.radio-items{
+	display:table;
+	width:188px;
+	border:1px solid pink;
+	border-radius:5px;
+	box-sizing:border-box;
+}
+
+.radio-items>div{
+	display:table-cell;
+	height:46px;
+	width:33.3%;
+	line-height:46px;
+	border:2px solid pink;
+	text-align:center;
+}
+
+.ratio>label{
+	display:block;
+	width:100%;
+	height:100%;
+	color:pink;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+
+
+.only-sr{
+	overflow:hidden!important;
+	position:absolute!important;
+	left:-9999px;
+	width:1px;
+	height:1px;
+}
+
+input[type="radio"]:checked+label{
+	background-color:pink;
+	color:black;
+}
+
+#inputText{
+	margin-bottom:7px;
+	height:44px;
+	border:4px solid pink;
+	border-radius:10px;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	background-color:white;
+	color:black;
+	width:180px;
+}
+
+input:focus{outline:none;}
+
+.text{
+	margin-bottom:7px;
+	height:44px;
+	border:4px solid pink;
+	border-radius:10px;
+	font-size:30px;
+	text-align:center;
+	vertical-align:middle;
+	background-color:white;
+	color:black;
+	width:180px;
+}
+
+.btt{
+	margin-bottom:5px;
+	height:36px;
+	width:124px;
+	border:4px solid pink;
+	border-radius:10px;
+	background-color:pink;
+	font-size:20px;
+	cursor:pointer;
+	color:black;
+}
+
+.btt2{
+	margin-bottom:5px;
+	height:36px;
+	width:72px;
+	border:4px solid pink;
+	border-radius:10px;
+	background-color:pink;
+	font-size:15px;
+	cursor:pointer;
+	color:black;
+}
+
+#webType{
+	margin-right:81px;
+	width:80px;
+	height:35px;
+	border:4px solid pink;
+	border-radius:10px;
+	background-color:white;
+	font-size:18px;
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#home{
+	margin-right:28px;
+	width:50px;
+	height:50px;
+	border:5px solid pink;
+	border-radius:50%;
+	background-color:white;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+.time{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	border:4px solid pink;
+	border-radius:10px;
+	background-color:white;
+	font-size:16px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+.sensorTime{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-left:42px;
+	border:4px solid pink;
+	border-radius:10px;
+	background-color:white;
+	font-size:16px;
+	cursor:pointer;
+	vertical-align:middle;
+}
