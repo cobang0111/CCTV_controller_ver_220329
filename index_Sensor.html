@@ -2,9 +2,10 @@
 <html lang='ko'>
 <head>
 	<meta charset="utf-8">
-	<title> CCTV 리모컨 </title>
+	<title> Sensor 리모컨 </title>
 	<link rel = "stylesheet" href="design.css">
 	<script src="jquery-3.6.0.min.js"></script>
+	<script src="time_Information.js"></script>
 	<script src="web_Information.js"></script>
 </head>
 <body>
@@ -26,13 +27,12 @@
 		<input class="btt2" id="ss7" onclick="sensor7(this)" type="button" value="7 OFF">
 		<input class="btt2" id="ss8" onclick="sensor8(this)" type="button" value="8 OFF">
 		<input class="btt2" id="ss9" onclick="sensor9(this)" type="button" value="9 OFF">
-		<input class="btt2" id="dark" onclick="darkMode(this)" type="button" value="☆">
+		<input class="btt2" id="darkM" onclick="darkMode()" type="button" value="☆">
 	</div>
 	<div>
 		<input id="webType" onclick="openIndex()" type="button" value="Sensor" >
 		<span class="sensorTime"></span>
 	</div>
-	<script src="time_Information.js"></script>
 	<script src="time_Setting.js"></script>
 	<script src="cookie.js"></script>
 	<script src="web_Open.js"></script>

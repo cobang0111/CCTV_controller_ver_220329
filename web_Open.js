@@ -19,12 +19,13 @@ function clickRadio(){
 
 // 현재 선택된 CCTV 출력 / C의 경우 x,y 상관 없이 바로 CCTV number 연결해주는 함수
 function currentCCTV(){
-	let ccType=$('input[name="theme1"]:checked').val();
-	if(ccType=="C"){
-		let checkCC=ccType+" "+$('#inputText').val();
+	let ccType1=$('input[name="theme1"]:checked').val();
+	let ccType2=$('input[name="theme2"]:checked').val();
+	if(ccType1=="D"){
+		let checkCC=ccType1+" "+ccType2;
 		return checkCC;
 	} else {
-		let checkCC=ccType+" "+$('input[name="theme2"]:checked').val()+"-"+$('#inputText').val();
+		let checkCC=ccType1+" "+ccType2+"-"+$('#inputText').val();
 		return checkCC;
 	}
 }
